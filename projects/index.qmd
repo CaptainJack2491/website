@@ -1,0 +1,44 @@
+PROJECTS
+==================================================
+
+[1] DECEPTIVE ALIGNMENT IN AUTONOMOUS LLM AGENTS
+Undergraduate Dissertation (Final Year)
+
+Built an agentic LLM framework to study hidden goal
+pursuit under conflicting in-context instructions.
+Agents operate in a sandboxed virtual file system
+with constrained tools and full behavioural logging.
+
+Experiments vary perceived oversight levels and
+analyse deceptive tactics using:
+- deterministic text filters
+- black-box LLM judges (user perception)
+- glass-box reasoning vs output analysis
+
+Focus: AI safety, evaluation methodology, detectability
+of hidden goals.
+
+--------------------------------------------------
+
+[2] SELF-HOSTED INFRASTRUCTURE
+
+Personal infrastructure spanning home server and VPS,
+using Tailscale for private access and Docker Compose
+for service orchestration.
+
+Public and private services are segmented cleanly,
+with minimal maintenance and reproducible setup.
+
+--------------------------------------------------
+
+[3] THREE REWARDS SCRAPER
+
+Found the internal API used by the Three (sim company) 
+rewards website and automated collecting rewards using
+a script attached to a cron job.
+
+Worked with JWTs and jq to parse the response. First 
+used curl and jq for prototyping and then implimented 
+in python for production.
+
+--------------------------------------------------

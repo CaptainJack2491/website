@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: public
+
+# This tells Quarto: "Every time you see a .qmd, make an HTML and a TXT"
+format:
+  html:
+    theme: none
+    minimal: true
+    embed-resources: true
+  plain: 
+    output-ext: txt  # This forces the extension to .txt instead of .plain
