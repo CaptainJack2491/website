@@ -18,3 +18,7 @@ find . -name "*.qmd" -not -path "./.*" -not -path "./public/*" | while read -r f
     # Render to plain text directly into the correct public sub-directory
     quarto render "$file" --to plain --output "${base_name}.txt" --output-dir "public/$rel_dir"
 done
+
+echo "Pushing to vps"
+
+rsync -avz --delete public/ jayrup.me:~/homepage/public/
