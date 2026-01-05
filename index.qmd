@@ -1,12 +1,13 @@
 JAYRUP NAKAWALA
 --------------------------------------------------
-Infrastructure & AI Safety–Focused CS Undergraduate
+Infrastructure & AI Safety–Focused CS Undergraduate \
 University of East London
 
 I build and study systems where models act, decide,
 and sometimes misbehave.
 
 Current focus:
+
 - Agentic LLM behaviour and deceptive alignment
 - AI safety evaluation via controlled environments
 - Self-hosted, reproducible infrastructure
@@ -17,10 +18,11 @@ inspected, and experiments that fail loudly.
 
 --------------------------------------------------
 
-PROJECTS:  curl jayrup.me/projects | less
-CV:        curl jayrup.me/cv | less
-GITHUB:    github.com/CaptainJack2491
-LINKEDIN:  linkedin.com/in/jayrupnakawala
+HOMEPAGE:  curl jayrup.me \
+PROJECTS:  curl jayrup.me/projects \
+CV:        curl jayrup.me/cv \
+GITHUB:    github.com/CaptainJack2491 \
+LINKEDIN:  linkedin.com/in/jayrupnakawala \
 EMAIL:     jayrupnakawala@gmail.com
 
 --------------------------------------------------

@@ -1,7 +1,8 @@
-PROJECTS
-==================================================
+---
+title: "Jayrup Nakawala | Projects"
+---
 
-[1] DECEPTIVE ALIGNMENT IN AUTONOMOUS LLM AGENTS
+## [1] DECEPTIVE ALIGNMENT IN AUTONOMOUS LLM AGENTS \
 Undergraduate Dissertation (Final Year)
 
 Built an agentic LLM framework to study hidden goal
@@ -11,6 +12,7 @@ with constrained tools and full behavioural logging.
 
 Experiments vary perceived oversight levels and
 analyse deceptive tactics using:
+
 - deterministic text filters
 - black-box LLM judges (user perception)
 - glass-box reasoning vs output analysis
@@ -20,7 +22,7 @@ of hidden goals.
 
 --------------------------------------------------
 
-[2] SELF-HOSTED INFRASTRUCTURE
+## [2] SELF-HOSTED INFRASTRUCTURE
 
 Personal infrastructure spanning home server and VPS,
 using Tailscale for private access and Docker Compose
@@ -31,7 +33,7 @@ with minimal maintenance and reproducible setup.
 
 --------------------------------------------------
 
-[3] THREE REWARDS SCRAPER
+## [3] THREE REWARDS SCRAPER
 
 Found the internal API used by the Three (sim company) 
 rewards website and automated collecting rewards using

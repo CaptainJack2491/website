@@ -8,5 +8,10 @@ format:
     theme: none
     minimal: true
     embed-resources: true
+    css: terminal.css
+    include-in-header: 
+      # Optional: Import a proper dev font from Google Fonts
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
   plain: 
     output-ext: txt  # This forces the extension to .txt instead of .plain

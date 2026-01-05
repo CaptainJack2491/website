@@ -1,0 +1,66 @@
+:root {
+  --bg-color: #1a1b26;    /* Tokyo Night style */
+  --text-color: #a9b1d6;
+  --accent-color: #7aa2f7;
+  --prompt-color: #bb9af7;
+  --font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Simulated terminal prompt */
+h1::before, h2::before {
+  content: "λ ";
+  color: var(--prompt-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: rgba(122, 162, 247, 0.1);
+}
+
+/* Navbar styling to match the vibe */
+nav {
+  border-bottom: 1px solid #414868;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+
+/* Minimalist container for the "Terminal" feel */
+#quarto-content {
+  border: 1px solid #414868;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Subtle scanline effect */
+body::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+              linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+  z-index: 9999;
+  pointer-events: none;
+  background-size: 100% 2px, 3px 100%;
+}
