@@ -1,0 +1,1 @@
+use `curl jayrup.me/cv.pdf > jayrup_cv.pdf`

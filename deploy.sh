@@ -19,6 +19,11 @@ find . -name "*.qmd" -not -path "./.*" -not -path "./public/*" | while read -r f
     quarto render "$file" --to plain --output "${base_name}.txt" --output-dir "public/$rel_dir"
 done
 
+# 4. Add cv
+mkdir public/cv
+cp cv/index.pdf public/cv.pdf
+cp cv/index.txt public/cv.txt
+
 echo "Pushing to vps"
 
 rsync -avz --delete public/ jayrup.me:~/homepage/public/
