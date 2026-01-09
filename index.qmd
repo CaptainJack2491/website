@@ -18,12 +18,12 @@ inspected, and experiments that fail loudly.
 
 --------------------------------------------------
 
-HOMEPAGE:  curl jayrup.me \
-PROJECTS:  curl jayrup.me/projects \
-CV:        curl jayrup.me/cv \
-GITHUB:    github.com/CaptainJack2491 \
-LINKEDIN:  linkedin.com/in/jayrupnakawala \
-EMAIL:     jayrupnakawala@gmail.com
+HOMEPAGE:  curl [jayrup.me](https://jayrup.me)\
+PROJECTS:  curl [jayrup.me/projects](https://jayrup.me/projects)\
+CV:        curl [jayrup.me/cv](https://jayrup.me/cv)\
+GITHUB:    [github.com/CaptainJack2491](https://github.com/CaptainJack2491)\
+LINKEDIN:  [linkedin.com/in/jayrupnakawala](https://linkedin.com/in/jayrupnakawala)\
+EMAIL:     [jayrupnakawala@gmail.com](mailto:jayrupnakawala@gmail.com) \
 
 --------------------------------------------------
 

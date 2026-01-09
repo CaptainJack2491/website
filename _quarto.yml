@@ -5,6 +5,7 @@ project:
 # This tells Quarto: "Every time you see a .qmd, make an HTML and a TXT"
 format:
   html:
+    from: markdown+autolink_bare_uris
     theme: none
     minimal: true
     embed-resources: true
