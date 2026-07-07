@@ -20,9 +20,13 @@ find . -name "*.qmd" -not -path "./.*" -not -path "./public/*" | while read -r f
 done
 
 # 4. Add cv
-mkdir public/cv
+mkdir -p public/cv
 cp cv/index.pdf public/cv.pdf
 cp cv/index.txt public/cv.txt
+
+# 5. Add assets (static files bundled in the repo)
+cp assets/dissertation.pdf public/dissertation.pdf
+cp assets/public_key public/public_key
 
 echo "Pushing to vps"
 
