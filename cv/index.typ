@@ -105,7 +105,7 @@
   institution: "University of East London",
   location: "London, UK",
   dates: dates-helper(start-date: "Sept 2023", end-date: "May 2026"),
-  degree: "Bachelor's of Science (hons) Data Science and Artificial Intelligence",
+  degree: "Bachelor's of Science (Hons) Data Science and Artificial Intelligence — First-Class Honours (94%)",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true

@@ -52,7 +52,7 @@ With 2+ years of hands-on Linux systems experience spanning Ubuntu, Arch, and hy
 - Built an rsync-over-SSH deployment pipeline from local Arch environment to cloud infrastructure, maintaining sub-50ms response times
 
 #project(
-  name: "Sandboxed LLM Evaluation Framework",
+  name: "Sandboxed LLM Evaluation Framework (Dissertation)",
   url: "github.com/CaptainJack2491/Dissertation",
   dates: dates-helper(start-date: "Nov 2025", end-date: "May 2026"),
 )
@@ -73,6 +73,6 @@ With 2+ years of hands-on Linux systems experience spanning Ubuntu, Arch, and hy
   institution: "University of East London",
   location: "London, UK",
   dates: dates-helper(start-date: "Sept 2023", end-date: "May 2026"),
-  degree: "Bachelor's of Science (hons) Data Science and Artificial Intelligence",
+  degree: "Bachelor's of Science (Hons) Data Science and Artificial Intelligence — First-Class Honours (94%)",
 )
 - Relevant Coursework: Networking, Database Systems, Big Data Analysis, Data Structures & Algorithms, AI
