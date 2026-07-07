@@ -60,24 +60,19 @@
 == Research Experience
 
 #project(
-  name: "Deceptive Alignment in Autonomous LLM Agents",
+  name: "Dissertation: Moral Cover and Watchful Eyes",
   // Role is optional
   role: "",
   // Dates is optional
-  dates: dates-helper(start-date: "Nov 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Nov 2025", end-date: "May 2026"),
   // URL is also optional
   url: "github.com/CaptainJack2491/Dissertation",
 )
 
-- The Framework: Architected a modular testing suite to detect and quantify "Sleeper Agent" behavior (hidden goal pursuit) in LLMs across multiple providers (Anthropic, OpenAI, Google, Moonshot).
-
-- Sandboxed Environment: Engineered a Virtual File System (VFS) to isolate agentic tool-use (read/write/list), enabling granular tracking of VFS state changes and preventing unauthorized host access.
-
-- Observability & Interrogation:
-  - Developed a Provider Abstraction Layer to normalize and extract "Glass-box" reasoning/Chain-of-Thought traces from diverse formats (e.g., Anthropic <thinking> tags, Kimi-K2 proprietary tokens).
-  - Built an Interrogation System (interrogate.py) to perform post-hoc adversarial questioning, recreating exact agent states to probe consistency and verify deceptive intent.
-
-- 3-Prong Evaluation Rubric: Designing a multi-layered scoring system to bypass the limitations of single-judge evaluations.
+- Architected a sandboxed evaluation framework with a Virtual File System (VFS) to safely execute and monitor autonomous LLM tool-use across multiple providers (Anthropic, OpenAI, Google).
+- Built a provider abstraction layer for glass-box reasoning extraction and a post-hoc interrogation system to adversarially probe agent intent.
+- Designed a 3-prong automated judging pipeline (regex, LLM blackbox, LLM glassbox) and ran *960 experimental trials* across exploratory and confirmatory studies.
+- Quantified a *"Stealth Gap"*: deceptive intent held steady (~62--67%) under high oversight while output-level detectability dropped (47.8%→35.6%), showing output-only monitoring underestimates risk.
 
 
 == Projects
@@ -86,7 +81,7 @@
   // role: "Lead Infrastructure Engineer",
   name: "Hybrid-Cloud Research Infrastructure & Zero-Trust Mesh",
   // url: "jayrup.me",
-  dates: dates-helper(start-date: "Nov 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
 )
 
 - Developed a hybrid-cloud networking mesh using Tailscale/WireGuard to unify a Dell Precision local node (Ubuntu) with 3 distributed VPS instances into a single secure plane.
@@ -97,7 +92,7 @@
 #project(
   name: "Jayrup.me: Fast Personal Portfolio",
   url: "jayrup.me",
-  dates: "Jan 2024 — Present"
+  dates: "Nov 2025 — Present"
 )
 - Engineered a dual-interface web server using Nginx to serve context-aware content (HTML vs. Plaintext) based on User-Agent detection (e.g., `curl`, `wget`).
 - Architected a Quarto-based publishing pipeline that generates synchronized web and CLI-friendly documentation from a single Markdown source.

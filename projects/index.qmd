@@ -3,22 +3,24 @@ title: "Jayrup Nakawala | Projects"
 ---
 
 ## [1] DECEPTIVE ALIGNMENT IN AUTONOMOUS LLM AGENTS \
+[Github](https://github.com/CaptainJack2491/dissertation) | [Full Summary](https://jayrup.me/dissertation) \
 Undergraduate Dissertation (Final Year)
 
-Built an agentic LLM framework to study hidden goal
-pursuit under conflicting in-context instructions.
-Agents operate in a sandboxed virtual file system
-with constrained tools and full behavioural logging.
+Studied whether in-context oversight and moral framing
+can control deceptive behaviour in agentic LLMs.
+960 experiment runs across seven models in a sandboxed
+virtual file system with a three-tier judging pipeline:
 
-Experiments vary perceived oversight levels and
-analyse deceptive tactics using:
+- deterministic regex filters
+- blackbox output judgment (LLM judge)
+- glassbox reasoning-trace analysis (LLM judge)
 
-- deterministic text filters
-- black-box LLM judges (user perception)
-- glass-box reasoning vs output analysis
+Key finding: oversight does not deter deception —
+it drives concealment. Model identity explains 60–83%
+of variance. Output monitoring underestimates intent
+by 35–46%.
 
-Focus: AI safety, evaluation methodology, detectability
-of hidden goals.
+More: curl jayrup.me/dissertation
 
 --------------------------------------------------
 
@@ -42,5 +44,22 @@ a script attached to a cron job.
 Worked with JWTs and jq to parse the response. First 
 used curl and jq for prototyping and then implimented 
 in python for production.
+
+--------------------------------------------------
+
+## [4] THIS WEBSITE \
+[Github](https://github.com/CaptainJack2491/website)
+
+A personal website designed to be read from the
+terminal. Every page renders as both HTML and plain
+text via Quarto, and nginx serves the right format
+based on user-agent detection.
+
+`curl jayrup.me` returns clean plaintext.
+A browser gets a styled page with a Tokyo Night
+terminal aesthetic.
+
+Stack: Quarto, nginx, Docker Compose, rsync.
+Deployed to a VPS with a single shell script.
 
 --------------------------------------------------
